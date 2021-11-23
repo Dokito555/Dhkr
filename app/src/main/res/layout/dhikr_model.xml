@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="20dp"
+    android:background="@color/primary"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle_scnd"
+        android:padding="6dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/white"
+            android:text="Desc"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item_lafaz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Lafaz"/>
+
+    <TextView
+        android:id="@+id/item_terjemah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_marginTop="20dp"
+        android:text="Terjemah"/>
+
+</LinearLayout>
